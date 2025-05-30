@@ -21,6 +21,7 @@ Azure Boards for task and project management
 Azure Repos for code version control
 
 💡 Features Implemented
+
 ✅ CI/CD Pipeline using Azure DevOps
 ✅ Dockerfile to containerize the app
 ✅ Kubernetes Manifest Files for deploying the app to a cluster
