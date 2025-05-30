@@ -23,11 +23,17 @@ Azure Repos for code version control
 💡 Features Implemented
 
 ✅ CI/CD Pipeline using Azure DevOps
+
 ✅ Dockerfile to containerize the app
+
 ✅ Kubernetes Manifest Files for deploying the app to a cluster
+
 ✅ Local Agent Setup (or use Microsoft-hosted Agent via Azure DevOps)
+
 ✅ Azure Boards for project tracking
+
 ✅ Code Repositories in Azure Repos
+
 ✅ Basic Calculator functionality (add, subtract, multiply, divide)
 
 🛠️ Project Setup & Run
@@ -40,6 +46,7 @@ git clone https://github.com/your-username/calculator-app.git
 Download Agent (if not uploaded here):
 
 If you want to run the pipeline locally, download the Agent or Local Agent from Microsoft Azure DevOps:
+
 ➡️ Download Azure Pipelines Agent
 
 Set up the Agent:
@@ -55,16 +62,27 @@ Kubernetes Deployment:
 Use the provided Kubernetes YAML files to deploy the app to a K8s cluster:
 
 bash
+
 Copy
+
 Edit
+
 kubectl apply -f k8s-deployment.yaml
+
 kubectl apply -f k8s-service.yaml
+
 📊 Azure DevOps Services Used
+
 Service	Purpose
+
 Azure Repos	Code version control
+
 Azure Pipelines	CI/CD pipeline for building & deploying
+
 Azure Boards	Agile project management
+
 Azure Agent Pool	Pipeline execution (Local/Microsoft-hosted)
+
 Azure Artifacts	(Optional) Package management
 
 📝 Notes
@@ -75,6 +93,7 @@ If you want to run the project locally, please ensure to set up the Agent from t
 This project is a learning-based demonstration and can be extended further for production use cases.
 
 📂 Project Structure
+
 calculator-app
 │
 ├── index.html
