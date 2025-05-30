@@ -1,0 +1,8 @@
+﻿{
+  "agentId": 17,
+  "agentName": "Cal-Work",
+  "poolId": 12,
+  "poolName": "Cal-Agent",
+  "serverUrl": "https://dev.azure.com/danishmoolani927/",
+  "workFolder": "work"
+}
